@@ -22,19 +22,20 @@ for( i = 1; i <= 100; i++){
     x.classList.add('FizzBuzz');
 
     //aggiungo all'Html e all'elemento genitore
-    x.innerHTML = (container.append(x));
+    x.innerHTML = i;
     
 
   }else if(i % 3 === 0){
     console.log("Fizz");
-    
+    x.innerHTML ="Fizz";
   
   }else if(i % 5 === 0){
     console.log("Buzz");
-  
+    x.innerHTML = "Buzz";
   
   }else{
     console.log(i);
+    x.innerHTML = i;
   }
 };
 
